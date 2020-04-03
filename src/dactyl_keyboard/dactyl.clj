@@ -16,8 +16,8 @@
     (cond (= column 2)  [0   0    -6.5]
           (>= column 4) [0   0     6]
           :else         [0   0     0])
-    (cond (= column 2)  [0   2.82 -6.5]
-          (>= column 4) [0  -13    6]
+    (cond (= column 2)  [0   2.82 -3]
+          (>= column 4) [0  -8    6]
           :else         [0   0     0])))
 
 ; it dictates the location of the thumb cluster.
